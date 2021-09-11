@@ -1,0 +1,38 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+/* global styles */
+:root {
+  --Font: "Red Hat Text", sans-serif;
+  --ColorDarker: hsl(234, 17%, 12%);
+  --ColorDark: hsl(236, 21%, 26%);
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--Font);
+}
+
+.timer-container {
+  background-image: url("/assets/images/bg-stars.svg");
+  background-color: var(--ColorDarker);
+  width: 70%;
+  height: 80vh;
+  padding: 10px;
+}
+
+.timer-box {
+  background-color: var(--ColorDark);
+}
+
+.social-links {
+  color: var(--ColorDark);
+}
+
+.social-links:hover {
+  color: #b70303;
+}
